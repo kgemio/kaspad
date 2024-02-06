@@ -1,18 +1,18 @@
 package integration
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/mining"
+	"github.com/kgemio/kaspad/domain/consensus/model/externalapi"
+	"github.com/kgemio/kaspad/domain/consensus/utils/consensushashing"
+	"github.com/kgemio/kaspad/domain/consensus/utils/mining"
 	"math/rand"
 	"reflect"
 	"sync"
 	"testing"
 	"time"
 
-	"github.com/kaspanet/kaspad/domain/dagconfig"
+	"github.com/kgemio/kaspad/domain/dagconfig"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
+	"github.com/kgemio/kaspad/app/appmessage"
 )
 
 func TestIBD(t *testing.T) {

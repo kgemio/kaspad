@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/daemon/pb"
-	"github.com/kaspanet/kaspad/cmd/kaspawallet/libkaspawallet"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/constants"
-	"github.com/kaspanet/kaspad/util"
+	"github.com/kgemio/kaspad/cmd/kaspawallet/daemon/pb"
+	"github.com/kgemio/kaspad/cmd/kaspawallet/libkaspawallet"
+	"github.com/kgemio/kaspad/domain/consensus/utils/constants"
+	"github.com/kgemio/kaspad/util"
 	"github.com/pkg/errors"
 	"golang.org/x/exp/slices"
 )

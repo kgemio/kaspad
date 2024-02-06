@@ -3,16 +3,16 @@ package standalone
 import (
 	"sync"
 
-	"github.com/kaspanet/kaspad/app/protocol/common"
-	"github.com/kaspanet/kaspad/util/mstime"
+	"github.com/kgemio/kaspad/app/protocol/common"
+	"github.com/kgemio/kaspad/util/mstime"
 
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/id"
+	"github.com/kgemio/kaspad/infrastructure/network/netadapter/id"
 
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	"github.com/kgemio/kaspad/app/appmessage"
+	"github.com/kgemio/kaspad/infrastructure/network/netadapter/router"
 
-	"github.com/kaspanet/kaspad/infrastructure/config"
-	"github.com/kaspanet/kaspad/infrastructure/network/netadapter"
+	"github.com/kgemio/kaspad/infrastructure/config"
+	"github.com/kgemio/kaspad/infrastructure/network/netadapter"
 
 	"github.com/pkg/errors"
 )

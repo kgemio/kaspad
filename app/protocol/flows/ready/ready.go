@@ -1,13 +1,13 @@
 package ready
 
 import (
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/app/protocol/common"
+	"github.com/kgemio/kaspad/app/appmessage"
+	"github.com/kgemio/kaspad/app/protocol/common"
 	"sync/atomic"
 
-	peerpkg "github.com/kaspanet/kaspad/app/protocol/peer"
-	"github.com/kaspanet/kaspad/app/protocol/protocolerrors"
-	routerpkg "github.com/kaspanet/kaspad/infrastructure/network/netadapter/router"
+	peerpkg "github.com/kgemio/kaspad/app/protocol/peer"
+	"github.com/kgemio/kaspad/app/protocol/protocolerrors"
+	routerpkg "github.com/kgemio/kaspad/infrastructure/network/netadapter/router"
 	"github.com/pkg/errors"
 )
 

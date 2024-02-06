@@ -1,4 +1,4 @@
-module github.com/kaspanet/kaspad
+module github.com/kgemio/kaspad
 
 go 1.18
 

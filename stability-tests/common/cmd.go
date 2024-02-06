@@ -5,8 +5,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/kaspanet/kaspad/domain/dagconfig"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
+	"github.com/kgemio/kaspad/domain/dagconfig"
+	"github.com/kgemio/kaspad/infrastructure/logger"
 	"github.com/pkg/errors"
 )
 

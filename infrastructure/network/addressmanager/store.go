@@ -2,9 +2,9 @@ package addressmanager
 
 import (
 	"encoding/binary"
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
-	"github.com/kaspanet/kaspad/util/mstime"
+	"github.com/kgemio/kaspad/app/appmessage"
+	"github.com/kgemio/kaspad/infrastructure/db/database"
+	"github.com/kgemio/kaspad/util/mstime"
 	"github.com/pkg/errors"
 	"net"
 )

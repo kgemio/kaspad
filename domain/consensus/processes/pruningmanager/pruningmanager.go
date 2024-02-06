@@ -1,15 +1,15 @@
 package pruningmanager
 
 import (
-	"github.com/kaspanet/kaspad/domain/consensus/model"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/multiset"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/utxo"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/virtual"
-	"github.com/kaspanet/kaspad/infrastructure/db/database"
-	"github.com/kaspanet/kaspad/infrastructure/logger"
-	"github.com/kaspanet/kaspad/util/staging"
+	"github.com/kgemio/kaspad/domain/consensus/model"
+	"github.com/kgemio/kaspad/domain/consensus/model/externalapi"
+	"github.com/kgemio/kaspad/domain/consensus/utils/consensushashing"
+	"github.com/kgemio/kaspad/domain/consensus/utils/multiset"
+	"github.com/kgemio/kaspad/domain/consensus/utils/utxo"
+	"github.com/kgemio/kaspad/domain/consensus/utils/virtual"
+	"github.com/kgemio/kaspad/infrastructure/db/database"
+	"github.com/kgemio/kaspad/infrastructure/logger"
+	"github.com/kgemio/kaspad/util/staging"
 	"github.com/pkg/errors"
 	"sort"
 )

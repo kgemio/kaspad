@@ -4,16 +4,16 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/kaspanet/kaspad/domain/consensus/utils/utxo"
+	"github.com/kgemio/kaspad/domain/consensus/utils/utxo"
 
 	"github.com/kaspanet/go-secp256k1"
-	"github.com/kaspanet/kaspad/app/appmessage"
-	"github.com/kaspanet/kaspad/domain/consensus/model/externalapi"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/consensushashing"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/constants"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/transactionid"
-	"github.com/kaspanet/kaspad/domain/consensus/utils/txscript"
-	"github.com/kaspanet/kaspad/util"
+	"github.com/kgemio/kaspad/app/appmessage"
+	"github.com/kgemio/kaspad/domain/consensus/model/externalapi"
+	"github.com/kgemio/kaspad/domain/consensus/utils/consensushashing"
+	"github.com/kgemio/kaspad/domain/consensus/utils/constants"
+	"github.com/kgemio/kaspad/domain/consensus/utils/transactionid"
+	"github.com/kgemio/kaspad/domain/consensus/utils/txscript"
+	"github.com/kgemio/kaspad/util"
 )
 
 func TestUTXOIndex(t *testing.T) {
