@@ -213,7 +213,9 @@ var MainnetParams = Params{
 	Net:         appmessage.Mainnet,
 	RPCPort:     "28110",
 	DefaultPort: "28111",
-	DNSSeeds:    []string{},
+	DNSSeeds:    []string{
+		"master.kgem.io"
+	},
 
 	// DAG parameters
 	GenesisBlock:                    &genesisBlock,
