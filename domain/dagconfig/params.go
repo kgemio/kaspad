@@ -214,7 +214,7 @@ var MainnetParams = Params{
 	RPCPort:     "28110",
 	DefaultPort: "28111",
 	DNSSeeds:    []string{
-		"master.kgem.io",
+		// "master.kgem.io",
 	},
 
 	// DAG parameters
